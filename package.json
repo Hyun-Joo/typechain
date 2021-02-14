@@ -7,7 +7,11 @@
   "author": "Hyun-Joo <dlguswn714@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.27",
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9"
   }
 }
