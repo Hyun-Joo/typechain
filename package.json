@@ -1,0 +1,13 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "repository": "https://github.com/Hyun-Joo/typechain.git",
+  "author": "Hyun-Joo <dlguswn714@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}
